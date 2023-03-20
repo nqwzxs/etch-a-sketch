@@ -15,6 +15,16 @@ body {
 #wrapper {
     max-width: 960px;
     padding-inline: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#wrapper button {
+    border: 0;
+    background-color: white;
+    padding: 8px;
+    font-size: 16px;
 }
 
 #grid {
@@ -22,8 +32,4 @@ body {
     width: 512px;
     height: 512px;
     display: grid;
-}
-
-#grid .colored {
-    background-color: purple;
 }
